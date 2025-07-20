@@ -1,0 +1,337 @@
+header{
+    font-size: 33px;
+    font-family: cursive;
+    color: olivedrab;
+    text-align: center;
+}
+#navbar{
+    height: 111px;
+    width: 1311px;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo {
+    height: 81px;
+    width: 91px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6aHXUuiYr88aqernO5Mwv7e79hAaU94afw&s);
+    background-size: cover;
+    margin: auto;
+    border-radius: 13px;
+}
+#options{
+    height:81px ;
+    width: 511px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.option{
+    color: blue;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero{
+    height: 651px;
+    width: 1511px;
+    background-color: black;
+    margin: auto;
+    background-image: url(https://media.istockphoto.com/id/922783734/photo/assorted-indian-recipes-food-various.jpg?s=612x612&w=0&k=20&c=p8DepvymWfC5j7c6En2UsQ6sUM794SQMwceeBW3yQ9M=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heroh1{
+    font-size: 41px;
+    color: white;
+    font-family: cursive;
+}
+
+#heroh3{
+    font-size: 31px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.herobutton{
+    padding: 11px;
+    background-color:#E9A319 ;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    font-size: 19px;
+    width: 131px;
+}
+#herobutton1{
+    background-color: transparent;
+    border: 1px solid black;
+}
+#food{
+    height: 711px;
+    width: 1511px;
+    margin: auto;
+    background-color: hwb(180 96% 2%);
+}
+#foodh1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#foodh3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 19px;
+}
+#foodd{
+    height: 511px;
+    width: 1511px;
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     margin: auto;
+    
+}
+.foods{
+    height: 479px;
+    width: 354px; 
+    align-items: center;
+    background-color:  white;
+    border: 1px solid rgb(216, 231, 231);
+    border-radius: 17px;
+    font-size: 31px;
+    margin-top: 15px;
+    text-align: center;
+ 
+}
+#watchnow{
+    height: 311px;
+    width: 1311px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+#watchimg{
+    height: 311px;
+    width: 311px;
+    background-image: url(https://media.istockphoto.com/id/1457433817/photo/group-of-healthy-food-for-flexitarian-diet.jpg?s=612x612&w=0&k=20&c=v48RE0ZNWpMZOlSp13KdF1yFDmidorO2pZTu2Idmd3M=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 111px;
+}
+#watchinfo{
+    height: 311px;
+    width: 711px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 51px;
+}
+#delivery1{
+    height: 311px;
+    width: 1511px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+#delinfo{
+    height: 311px;
+    width: 711px;
+    display: flex;
+    flex-direction: column;
+}
+#delimg{
+    height: 311px;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 71px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToJvE_TA9NDecGwNQphgAEQ95fghLk_gIlOg&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 111px;
+    padding: 11px;
+}
+#delimg1{
+    height: 1111px;
+    width: 711px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+.delclass{
+    height: 75px;
+    width: 71px;
+    border: 1px solid lightgrey;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+
+}
+#visa{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNy4CtwdQs6-sTC_4qAgABjC3OTNBPSmfPw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#creditcard{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP2vfLQC4gF7qC6RQajC5iZMU9g7b3zHDV-g&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#paypal{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ehyPkJvvT6UQTvQkjr7-nQE2Gk3glYrIUg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#american{
+    background-image: url(https://img.favpng.com/21/5/13/american-express-logo-credit-card-payment-png-favpng-8tx6epUgjhQeNcJFzp5fhKgZQ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#customer1{
+    height: 311px;
+    width: 1511px;
+    margin: auto;
+    background-color: rgb(248, 222, 134);
+    padding: 31px;
+    text-align: left;
+   display: flex;
+}
+#custimg{
+    height: 311px;
+    width: 311px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 71px;
+    margin: auto;
+    border-radius: 51px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTExQo5m9MkcPeGhAWbJW-zunIG9_fz5t6Q&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo1{
+    height: 911px;
+    width: 1511px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: lightcyan;
+    margin: auto;
+    
+    
+}
+.class{
+    height: 331px;
+    width: 331px;
+    background-color: white;
+    margin: auto;
+    align-items: center;  
+    padding: 11px; 
+    text-align: center;
+    background-size: contain;
+    border-radius:15px;
+    box-shadow: #fffafa;
+}
+#color{
+    color: #D6D46D;
+}
+
+#hh1{
+    height: 311px;
+    width: 1511px;
+    margin: auto;
+    
+    
+}
+#fallow{
+    height: 111px;
+    width: 1311px;
+    display:flex ;
+    flex-direction: column;
+    color: cornflowerblue;
+    font-size: 19px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 111px;
+    background-color: bisque;
+}
+
+.fallows{
+    height: 111px;
+    width: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgb(246, 243, 248);
+    border-radius: 111px;
+}
+#center{
+   color: rgb(115, 115, 197);
+   text-align: center;
+}
+#fallow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#twitter{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZq9ED6MnP-WY0YnDQYjAwh73EH6_NAhLCmg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#insta{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6BOTq6S3xT2X6Rp7vAoi7xl45ay5WWNowg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#facebook{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMufcmX1BKF7ClRU4_pxKH_xdccQwitcQwZg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer{
+    height: 151px;
+    width: 1357px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 71px;
+    color: azure;
+    background-color: rgb(6, 6, 97);
+    align-items: center;
+}
+#footimg{
+    height: 431px;
+    width: 135px;
+    margin: auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYNn4WO1y4muxE7zz2Dg0KGAo_bQcoqBzuMg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+}
